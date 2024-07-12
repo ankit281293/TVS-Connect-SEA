@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="30" passed="28" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-11T16:11:11 IST" name="Suite" finished-at="2024-07-11T16:16:42 IST" duration-ms="330998">
+    <groups>
+    </groups>
+    <test started-at="2024-07-11T16:11:11 IST" name="Indonesia Test-0" finished-at="2024-07-11T16:16:42 IST" duration-ms="330998">
+      <class name="tvsconnectframework.Indonesia">
+        <test-method is-config="true" signature="configureAppium()[pri:0, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:11:11 IST" name="configureAppium" finished-at="2024-07-11T16:12:18 IST" duration-ms="66878" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configureAppium -->
+        <test-method signature="standardLogin(java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:12:18 IST" name="standardLogin" data-provider="getData" finished-at="2024-07-11T16:12:41 IST" duration-ms="22674" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Ankit]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[6589098000]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Dehradun]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardLogin -->
+        <test-method signature="standardAddVehicles()[pri:2, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:12:41 IST" name="standardAddVehicles" finished-at="2024-07-11T16:12:49 IST" duration-ms="7712" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardAddVehicles -->
+        <test-method signature="allowAppPermission()[pri:3, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:12:49 IST" name="allowAppPermission" finished-at="2024-07-11T16:13:05 IST" duration-ms="16488" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allowAppPermission -->
+        <test-method signature="standardMyRides()[pri:4, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:06 IST" name="standardMyRides" finished-at="2024-07-11T16:13:08 IST" duration-ms="2668" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardMyRides -->
+        <test-method signature="standardSettings()[pri:5, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:08 IST" name="standardSettings" finished-at="2024-07-11T16:13:21 IST" duration-ms="12061" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardSettings -->
+        <test-method signature="standardUserManual()[pri:6, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:21 IST" name="standardUserManual" finished-at="2024-07-11T16:13:28 IST" duration-ms="7412" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardUserManual -->
+        <test-method signature="standardRideDetails()[pri:7, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:28 IST" name="standardRideDetails" finished-at="2024-07-11T16:13:33 IST" duration-ms="4552" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardRideDetails -->
+        <test-method signature="displayAllFaq()[pri:8, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:33 IST" name="displayAllFaq" finished-at="2024-07-11T16:13:43 IST" duration-ms="9511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- displayAllFaq -->
+        <test-method signature="standardHowToVideos()[pri:9, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:43 IST" name="standardHowToVideos" finished-at="2024-07-11T16:13:45 IST" duration-ms="2541" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- standardHowToVideos -->
+        <test-method signature="tvsConnectHamburgerOptions()[pri:10, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:13:46 IST" name="tvsConnectHamburgerOptions" finished-at="2024-07-11T16:14:00 IST" duration-ms="14448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tvsConnectHamburgerOptions -->
+        <test-method signature="feedBackSubmission()[pri:11, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:00 IST" name="feedBackSubmission" finished-at="2024-07-11T16:14:07 IST" duration-ms="6589" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feedBackSubmission -->
+        <test-method signature="racingAddVehicles()[pri:11, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:07 IST" name="racingAddVehicles" finished-at="2024-07-11T16:14:16 IST" duration-ms="8901" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- racingAddVehicles -->
+        <test-method signature="racingMyRides()[pri:12, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:16 IST" name="racingMyRides" finished-at="2024-07-11T16:14:18 IST" duration-ms="1737" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- racingMyRides -->
+        <test-method signature="racingSettings()[pri:13, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:18 IST" name="racingSettings" finished-at="2024-07-11T16:14:29 IST" duration-ms="10205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- racingSettings -->
+        <test-method signature="racingUserManual()[pri:14, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:29 IST" name="racingUserManual" finished-at="2024-07-11T16:14:33 IST" duration-ms="4572" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- racingUserManual -->
+        <test-method signature="racingRideDetails()[pri:15, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:34 IST" name="racingRideDetails" finished-at="2024-07-11T16:14:40 IST" duration-ms="6795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- racingRideDetails -->
+        <test-method signature="racingHowToVideos()[pri:16, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:41 IST" name="racingHowToVideos" finished-at="2024-07-11T16:14:45 IST" duration-ms="4444" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- racingHowToVideos -->
+        <test-method signature="indoEditProfile()[pri:17, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:14:45 IST" name="indoEditProfile" finished-at="2024-07-11T16:15:05 IST" duration-ms="20035" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indoEditProfile -->
+        <test-method signature="callistoassests()[pri:18, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:05 IST" name="callistoassests" finished-at="2024-07-11T16:15:24 IST" duration-ms="18670" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callistoassests -->
+        <test-method signature="callistoMyRides()[pri:19, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:24 IST" name="callistoMyRides" finished-at="2024-07-11T16:15:26 IST" duration-ms="1880" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callistoMyRides -->
+        <test-method signature="callistoUserManual()[pri:20, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:26 IST" name="callistoUserManual" finished-at="2024-07-11T16:15:34 IST" duration-ms="7796" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callistoUserManual -->
+        <test-method signature="callistoHowToVideos()[pri:21, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:34 IST" name="callistoHowToVideos" finished-at="2024-07-11T16:15:36 IST" duration-ms="1943" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callistoHowToVideos -->
+        <test-method signature="callistoSettings()[pri:22, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:37 IST" name="callistoSettings" finished-at="2024-07-11T16:15:43 IST" duration-ms="6141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- callistoSettings -->
+        <test-method signature="roninOverView()[pri:24, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:43 IST" name="roninOverView" finished-at="2024-07-11T16:15:59 IST" duration-ms="15823" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roninOverView -->
+        <test-method signature="roninlastrideinfo()[pri:25, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:15:59 IST" name="roninlastrideinfo" finished-at="2024-07-11T16:16:10 IST" duration-ms="10383" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roninlastrideinfo -->
+        <test-method signature="roninMyRides()[pri:26, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:16:10 IST" name="roninMyRides" finished-at="2024-07-11T16:16:17 IST" duration-ms="6806" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roninMyRides -->
+        <test-method signature="roninUserManual()[pri:27, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:16:17 IST" name="roninUserManual" finished-at="2024-07-11T16:16:23 IST" duration-ms="5937" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roninUserManual -->
+        <test-method signature="roninHowToVideos()[pri:28, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:16:23 IST" name="roninHowToVideos" finished-at="2024-07-11T16:16:26 IST" duration-ms="2436" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- roninHowToVideos -->
+        <test-method signature="indonesiaNotifications()[pri:29, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:16:26 IST" name="indonesiaNotifications" finished-at="2024-07-11T16:16:41 IST" duration-ms="15431" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[Can't locate an element by this strategy: By.chained({AppiumBy.id: com.tvsm.connect.southeastasia:id/close})]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: Can't locate an element by this strategy: By.chained({AppiumBy.id: com.tvsm.connect.southeastasia:id/close})
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:166)
+at io.appium.java_client.pagefactory.interceptors.InterceptorOfASingleElement.call(InterceptorOfASingleElement.java:64)
+at io.appium.java_client.proxy.Interceptor.intercept(Interceptor.java:78)
+at org.openqa.selenium.remote.RemoteWebElement$ByteBuddy$PCkFbad1.click(Unknown Source)
+at tvsframework.pageobjects.android.NotifcationsIndo.notificationBtnClick(NotifcationsIndo.java:38)
+at tvsconnectframework.Indonesia.indonesiaNotifications(Indonesia.java:440)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction@236cb94 (tried for 1 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:262)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:230)
+at io.appium.java_client.pagefactory.AppiumElementLocator.waitFor(AppiumElementLocator.java:135)
+at io.appium.java_client.pagefactory.AppiumElementLocator.findElement(AppiumElementLocator.java:160)
+... 27 more
+Caused by: org.openqa.selenium.NoSuchElementException: Cannot locate an element using By.chained({AppiumBy.id: com.tvsm.connect.southeastasia:id/close})
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.13.0', revision: 'ba948ece5b*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.10'
+Driver info: driver.version: RemoteWebDriver
+at io.appium.java_client.pagefactory.bys.builder.ByChained.findElement(ByChained.java:77)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at io.appium.java_client.pagefactory.bys.ContentMappedBy.findElement(ContentMappedBy.java:53)
+at org.openqa.selenium.remote.ElementLocation$ElementFinder$1.findElement(ElementLocation.java:139)
+at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
+at io.appium.java_client.pagefactory.AppiumElementLocator.lambda$findElement$1(AppiumElementLocator.java:160)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:217)
+at io.appium.java_client.pagefactory.AppiumElementLocator$WaitingFunction.apply(AppiumElementLocator.java:210)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:205)
+... 29 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- indonesiaNotifications -->
+        <test-method signature="XPVehicleOverview()[pri:30, instance:tvsconnectframework.Indonesia@117525fe]" started-at="2024-07-11T16:16:42 IST" name="XPVehicleOverview" finished-at="2024-07-11T16:16:42 IST" duration-ms="99" status="FAIL">
+          <exception class="java.lang.Error">
+            <message>
+              <![CDATA[Unresolved compilation problems: 
+Syntax error, insert "enum Identifier" to complete EnumHeader
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Error: Unresolved compilation problems: 
+Syntax error, insert "enum Identifier" to complete EnumHeader
+Syntax error, insert "EnumBody" to complete EnumDeclaration
+
+at tvsframework.pageobjects.android.XPAddVehicle.<init>(XPAddVehicle.java:18)
+at tvsconnectframework.Indonesia.XPVehicleOverview(Indonesia.java:445)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:819)
+at org.testng.TestRunner.run(TestRunner.java:619)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+at java.base/java.lang.Thread.run(Thread.java:840)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Error -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- XPVehicleOverview -->
+      </class> <!-- tvsconnectframework.Indonesia -->
+    </test> <!-- Indonesia Test-0 -->
+  </suite> <!-- Suite -->
+</testng-results>

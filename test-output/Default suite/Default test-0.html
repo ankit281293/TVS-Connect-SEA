@@ -1,0 +1,272 @@
+<html>
+<head>
+<title>TestNG:  Default test-0</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test-0</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>17/1/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jun 19 16:48:00 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>211 seconds (211120 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.tvsConnectHamburgerOptions()'><b>tvsConnectHamburgerOptions</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.tvsm.connect.southeastasia:id/imgBack&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f1ea66cc8fe7bf85166487f2a4b96cb4e2002bf1, clickElement {id=75bf5266-2276-43b8-b29c-33d79dfdb49b}]
+Capabilities {appium:appActivity: com.tvsm.connect.SplashActi..., appium:appPackage: com.tvsm.connect.southeastasia, appium:automationName: uiautomator2, appium:bundleID: com.tvsm.connect.southeastasia, appium:bundleId: com.tvsm.connect.southeastasia, appium:chromedriverPort: 18085, appium:chromedriverPorts: [[18155, 18165]], appium:databaseEnabled: false, appium:desired: {appActivity: com.tvsm.connect.SplashActi..., appPackage: com.tvsm.connect.southeastasia, automationName: uiautomator2, bstack:options: {buildIdentifier: #135, hostName: ankitbhandari, localIdentifier: 19_Jun_1647_ankitbhandari_CqpP}, bundleID: com.tvsm.connect.southeastasia, bundleId: com.tvsm.connect.southeastasia, chromedriverPort: 18085, chromedriverPorts: [[18155, 18165]], deviceName: moto g9 play, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8205, udid: ZD22259KSR}, appium:deviceApiLevel: 30, appium:deviceManufacturer: motorola, appium:deviceModel: moto g71 5G, appium:deviceName: ZD22259KSR, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: ZD22259KSR, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-aps.browserstack.com, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:skipServerInstallation: true, appium:statBarHeight: 100, appium:systemPort: 8205, appium:takesScreenshot: true, appium:udid: ZD22259KSR, appium:viewportRect: {height: 2074, left: 0, top: 100, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #135, hostName: ankitbhandari, localIdentifier: 19_Jun_1647_ankitbhandari_CqpP}, goog:chromeOptions: {}, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (f1ea66cc8fe7bf85166487f2a4b96cb4e2002bf1)] -&gt; id: com.tvsm.connect.southeastasia:id/imgBack]
+Session ID: f1ea66cc8fe7bf85166487f2a4b96cb4e2002bf1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at tvsframework.utils.AndroidActions.mainMenuClick(AndroidActions.java:38)
+	at tvsconnectframework.Indonesia.tvsConnectHamburgerOptions(Indonesia.java:220)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1229723877", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1229723877'><pre>org.openqa.selenium.StaleElementReferenceException: The element &apos;By.id: com.tvsm.connect.southeastasia:id/imgBack&apos; does not exist in DOM anymore
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.13.0&apos;, revision: &apos;ba948ece5b*&apos;
+System info: os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;17.0.10&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Command: [f1ea66cc8fe7bf85166487f2a4b96cb4e2002bf1, clickElement {id=75bf5266-2276-43b8-b29c-33d79dfdb49b}]
+Capabilities {appium:appActivity: com.tvsm.connect.SplashActi..., appium:appPackage: com.tvsm.connect.southeastasia, appium:automationName: uiautomator2, appium:bundleID: com.tvsm.connect.southeastasia, appium:bundleId: com.tvsm.connect.southeastasia, appium:chromedriverPort: 18085, appium:chromedriverPorts: [[18155, 18165]], appium:databaseEnabled: false, appium:desired: {appActivity: com.tvsm.connect.SplashActi..., appPackage: com.tvsm.connect.southeastasia, automationName: uiautomator2, bstack:options: {buildIdentifier: #135, hostName: ankitbhandari, localIdentifier: 19_Jun_1647_ankitbhandari_CqpP}, bundleID: com.tvsm.connect.southeastasia, bundleId: com.tvsm.connect.southeastasia, chromedriverPort: 18085, chromedriverPorts: [[18155, 18165]], deviceName: moto g9 play, disableSuppressAccessibilityService: true, goog:chromeOptions: {}, nativeWebScreenshot: true, newCommandTimeout: 0, platformName: Android, skipServerInstallation: true, systemPort: 8205, udid: ZD22259KSR}, appium:deviceApiLevel: 30, appium:deviceManufacturer: motorola, appium:deviceModel: moto g71 5G, appium:deviceName: ZD22259KSR, appium:deviceScreenDensity: 420, appium:deviceScreenSize: 1080x2400, appium:deviceUDID: ZD22259KSR, appium:disableSuppressAccessibilityService: true, appium:javascriptEnabled: true, appium:locationContextEnabled: false, appium:nativeWebScreenshot: true, appium:networkConnectionEnabled: true, appium:newCommandTimeout: 0, appium:optimalHubUrl: hub-aps.browserstack.com, appium:pixelRatio: 2.625, appium:platformVersion: 11, appium:skipServerInstallation: true, appium:statBarHeight: 100, appium:systemPort: 8205, appium:takesScreenshot: true, appium:udid: ZD22259KSR, appium:viewportRect: {height: 2074, left: 0, top: 100, width: 1080}, appium:warnings: {}, appium:webStorageEnabled: false, bstack:options: {buildIdentifier: #135, hostName: ankitbhandari, localIdentifier: 19_Jun_1647_ankitbhandari_CqpP}, goog:chromeOptions: {}, platformName: ANDROID}
+Element: [[AndroidDriver:  on ANDROID (f1ea66cc8fe7bf85166487f2a4b96cb4e2002bf1)] -&gt; id: com.tvsm.connect.southeastasia:id/imgBack]
+Session ID: f1ea66cc8fe7bf85166487f2a4b96cb4e2002bf1
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
+	at io.appium.java_client.remote.AppiumCommandExecutor.execute(AppiumCommandExecutor.java:250)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:224)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at tvsframework.utils.AndroidActions.mainMenuClick(AndroidActions.java:38)
+	at tvsconnectframework.Indonesia.tvsConnectHamburgerOptions(Indonesia.java:220)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:481)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:58)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</pre></div></td>
+<td>13</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.racingUserManual()'><b>racingUserManual</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>4</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.racingAddVehicles()'><b>racingAddVehicles</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>9</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardSettings()'><b>standardSettings</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>11</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardMyRides()'><b>standardMyRides</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>2</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.displayAllFaq()'><b>displayAllFaq</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>8</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.indoEditProfile()'><b>indoEditProfile</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>5</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardAddVehicles()'><b>standardAddVehicles</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>7</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.racingMyRides()'><b>racingMyRides</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>1</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.allowAppPermission()'><b>allowAppPermission</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>17</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.feedBackSubmission()'><b>feedBackSubmission</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>5</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.racingRideDetails()'><b>racingRideDetails</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>3</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.racingHowToVideos()'><b>racingHowToVideos</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>4</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardLogin()'><b>standardLogin</b><br>Test class: tvsconnectframework.Indonesia<br>Parameters: Ankit, 6589098000, Dehradun</td>
+<td></td>
+<td>22</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.racingSettings()'><b>racingSettings</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>9</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardUserManual()'><b>standardUserManual</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>6</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardHowToVideos()'><b>standardHowToVideos</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>2</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+<tr>
+<td title='tvsconnectframework.Indonesia.standardRideDetails()'><b>standardRideDetails</b><br>Test class: tvsconnectframework.Indonesia</td>
+<td></td>
+<td>4</td>
+<td>tvsconnectframework.Indonesia@40e60ece</td></tr>
+</table><p>
+</body>
+</html>

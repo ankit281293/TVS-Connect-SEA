@@ -1,0 +1,27 @@
+package tvsframework.pageobjects.android;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.PageFactory;
+
+import io.appium.java_client.android.AndroidDriver;
+import io.appium.java_client.pagefactory.AndroidFindBy;
+import io.appium.java_client.pagefactory.AppiumFieldDecorator;
+import tvsframework.utils.AndroidActions;
+
+public class ReNavigationIcon extends AndroidActions{
+			AndroidDriver driver;
+			public ReNavigationIcon ( AndroidDriver driver) {
+				super (driver);
+				this.driver=driver;
+				PageFactory.initElements(new AppiumFieldDecorator(driver), this);
+			}
+			
+		@AndroidFindBy(xpath="//android.widget.LinearLayout[3]/android.widget.ImageView[2]")
+		private WebElement navigationicon;
+
+        public void navigationIconClick() {
+    	 navigationicon.click();  
+        
+        }
+       }
+

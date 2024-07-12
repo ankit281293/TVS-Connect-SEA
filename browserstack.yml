@@ -1,0 +1,13 @@
+userName: siddarthsuman_HOXmq3
+accessKey: QZK5GefoaasixKqfCJTp
+framework: testng
+app: bs://e8c941558b7e72d9745fef99d4be69b6af8a3b40
+noReset: true
+platforms:
+  - platformName: android
+    deviceName: Motorola Moto G71 5G
+    platformVersion: 11.0
+parallelsPerPlatform: 1
+browserstackLocal: true
+buildName: tvsconnect-IB
+projectName: TvsConnect IB
